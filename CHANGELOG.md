@@ -9,6 +9,8 @@ x.x.x Release notes (yyyy-MM-dd)
 
 * Added method `-linkingObjectsOfClass:forProperty:` to RLMObject to expose inverse
   relashinships/backlinks.
+* Make fast enumeration of `RLMArray` and `RLMResults` ~10% faster and
+  `objectAtIndex:` ~25% faster.
 
 ### Bugfixes
 
